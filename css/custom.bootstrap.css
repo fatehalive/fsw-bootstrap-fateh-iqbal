@@ -1,0 +1,42 @@
+@font-face {
+    font-family: HkGroteskPro;
+    src: url(../fonts/HKGrotesk-Regular.otf);
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        max-width: 753px;
+    }
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        min-width: 541px;
+        max-width: 720px;
+        height: 47.2px;
+    }
+}
+
+body {
+    font-family: 'HkGroteskPro', serif;               /*overwrite property of bootstrap's style*/
+    font-size: 1.0625rem;                             /*overwrite property of bootstrap's style*/
+}
+
+.navbar {
+    height: 87.2px;                                   /*override property of bootstrap's style*/
+}
+
+.btn-sm {
+    border-radius: 0.375rem;                          /*add property of bootstrap's style*/
+}
+
+.btn-primary {
+    background-color: hsl(226, 81%, 56%);           /*overwrite property of bootstrap's style*/
+}
+
+.btn-primary:hover {
+    background-color: hsl(226, 81%, 48%);           /*overwrite property of bootstrap's style*/
+}
