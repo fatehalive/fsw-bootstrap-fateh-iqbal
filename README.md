@@ -20,14 +20,14 @@ fsw-bootstrap-temmy-izul
 
 * [x] Buat repo dengan nama "fsw-bootstrap-fateh-iqbal".
 * [x] Repo bersifat public.
-* [ ] Memilik 2 cabang inti (master dan develop).
+* [x] Memilik 2 cabang inti (master dan develop).
 - [ ] Memiliki 2 halaman.
-- [ ] Halaman menggunakan Bootstrap.
+* [x] Halaman menggunakan Bootstrap.
 - [ ] 2 halaman merge ke cabang develop.
 - [ ] Customs **element**.
 - [ ] Customs **media query system**.
 - [ ] Customs **grid system**.
-- [ ] Has a good folder/directory structure.
+* [x] Organize folder/directory structure.
 - [ ] Share to group.
 
 
